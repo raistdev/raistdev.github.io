@@ -1,0 +1,52 @@
+* {
+    background-color: #f0f2f5;
+}
+
+header, main, footer {
+    margin: auto;
+    max-width: 900px;
+}
+
+header {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    color: #7096d4;
+}
+
+h2, footer {
+    color: #1c5a99;
+    text-align: center;
+}
+
+.title {
+    margin: auto;
+}
+
+.logo img {
+    height: 10em;
+    width: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+main aside {
+    max-width: 300px;
+    padding: 1em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 1em;
+  }
+
+main section {
+    max-width: 600px;
+    padding: 1em;
+}
